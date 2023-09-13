@@ -1,19 +1,36 @@
 <html>
+
 <head>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1 class="cpink">Lenskart</h1>
     <h1 class="cpink">Facebook</h1>
     <h1>Instagram</h1>
-    <img src="https://static.lenskart.com/media/desktop/img/site-images/main_logo.svg"/>
-    <p class="cpink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque culpa fuga animi reprehenderit nostrum autem modi unde asperiores quis fugit corporis at mollitia delectus minima aperiam, consequuntur consectetur, iusto ab?</p>
+    <img src="https://static.lenskart.com/media/desktop/img/site-images/main_logo.svg" />
+    <p class="cpink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque culpa fuga animi reprehenderit
+        nostrum autem modi unde asperiores quis fugit corporis at mollitia delectus minima aperiam, consequuntur
+        consectetur, iusto ab?</p>
     <h2>Login</h2>
-    <label for="email">Email</label>
-    <input id="email"/><br/>
-    <label for="pass">Password</label>
-    <input id="pass"/>
+
+    <form action="/action.php">
+        <label for="email">Email</label>
+        <input id="email" disabled type="text" value="dhj@jk.kl"/><br />
+        <label for="pass">Password</label>
+        <input id="pass" type="number" name="age" min="5" max="10"/>
+        <input id="pass" type="password" name="pass" />
+        <input id="pass" type="file" accept="application/pdf" />
+        <input id="pass" type="range" />
+        <input id="pass" type="submit" disabled />
+        Gadgets
+        Computer <input id="pass" checked type="checkbox" />
+        Mobile <input id="pass" type="checkbox" /> 
+        Tab  <input id="pass" type="checkbox" /> 
+        <!-- <input id="pass" type="radio" /> -->
+    </form>
     <lens>hjhjhj</lens>
 </body>
+
 </html>
