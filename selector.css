@@ -1,0 +1,9 @@
+.title {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+
+.title + p {
+    background-color: red;
+    color: white;
+}
